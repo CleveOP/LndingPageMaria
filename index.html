@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Thereza | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones do Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- CABEÇALHO E NAVEGAÇÃO -->
+    <header>
+        <nav>
+            <a href="#" class="logo">Maria Thereza</a>
+            <ul class="nav-list">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-icon">
+                <button onclick="toggleMenu()"><i class="ph ph-list"></i></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#sobre" onclick="toggleMenu()">Sobre Mim</a></li>
+                <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#formacao" onclick="toggleMenu()">Formação</a></li>
+                <li><a href="#habilidades" onclick="toggleMenu()">Habilidades</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO INICIAL (HERO) -->
+        <section id="inicio">
+            <h1>Olá, eu sou a Maria Thereza</h1>
+            <h2>Apaixonada por tecnologia, criatividade e pessoas.</h2>
+            <p>Em transição de carreira para Inteligência Artificial e Machine Learning, com experiência em mídias sociais, branding e fotografia.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/maria-thereza-s-6aa5b224a/" target="_blank" title="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="https://www.instagram.com/agenciamscriacoes" target="_blank" title="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE MIM -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-container">
+                <img src="./img/ImagemFundadora.png" alt="Foto de Maria Thereza" class="foto-perfil">
+                <div class="sobre-texto">
+                    <p>Estou em transição de carreira para a área de tecnologia, cursando <strong>Inteligência Artificial e Machine Learning</strong>. Minha jornada profissional me deu uma base sólida em comunicação e estratégia, atuando como social media e empreendendo com meu brechó de moda sustentável.</p>
+                    <p>Essa experiência me ensinou a entender o público, criar conteúdo relevante e gerenciar projetos do início ao fim. Agora, meu objetivo é unir essa bagagem humana com o poder da tecnologia.</p>
+                    <p>Sou curiosa, organizada e adoro encontrar formas criativas de usar IA, SEO e automações para resolver problemas. Busco uma oportunidade para aplicar meu aprendizado e contribuir em um ambiente inovador.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO PROJETOS -->
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <!-- Projeto 1 -->
+                <div class="projeto-card">
+                    <div class="projeto-imagem" style="background-image: url('https://via.placeholder.com/400x250/cccccc/808080?text=Imagem+do+Projeto');"></div>
+                    <h3>Brechó Estilo Recriado</h3>
+                    <p>Gestão completa do e-commerce, incluindo fotografia de produtos, criação de conteúdo para Instagram, marketing digital e atendimento ao cliente com foco em moda sustentável.</p>
+                    <div class="tags">
+                        <span>Marketing Digital</span>
+                        <span>Fotografia</span>
+                        <span>Social Media</span>
+                    </div>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="projeto-card">
+                    <div class="projeto-imagem" style="background-image: url('https://via.placeholder.com/400x250/cccccc/808080?text=Imagem+do+Projeto');"></div>
+                    <h3>Social Media (Freelancer)</h3>
+                    <p>Criação de identidade visual e conteúdo estratégico para perfis no Instagram, com foco em crescimento orgânico, análise de métricas e gestão de comunidade.</p>
+                    <div class="tags">
+                        <span>Gestão de Mídias</span>
+                        <span>Design Gráfico</span>
+                        <span>Análise de Métricas</span>
+                    </div>
+                </div>
+                <!-- Adicionar mais projetos aqui -->
+                <div class="projeto-card">
+                    <div class="projeto-imagem" style="background-image: url('https://via.placeholder.com/400x250/cccccc/808080?text=Adicione+um+projeto+de+IA');"></div>
+                    <h3>(Exemplo) Projeto de IA/ML</h3>
+                    <p>Um projeto de estudo ou pessoal usando IA, como um classificador de imagens, um chatbot simples ou uma análise de sentimentos.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Estudo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO FORMAÇÃO -->
+        <section id="formacao">
+            <h2>Formação & Certificações</h2>
+            <div class="formacao-container">
+                <div class="formacao-item">
+                    <h3>Inteligência Artificial e Machine Learning</h3>
+                    <p>Uniasselvi | Conclusão em 2028</p>
+                </div>
+                <div class="formacao-item">
+                    <h3>Administração</h3>
+                    <p>Colégio Praxis | Concluído em 2022</p>
+                </div>
+                <div class="formacao-item">
+                    <h3>Contabilidade</h3>
+                    <p>Funatec | Concluído em 2010</p>
+                </div>
+                <div class="formacao-item">
+                    <h3>Design Gráfico</h3>
+                    <p>Data Byte | Concluído em 2008</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SEÇÃO HABILIDADES -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidades-container">
+                <div class="habilidade-grupo">
+                    <h3>Técnicas & Ferramentas</h3>
+                    <ul>
+                        <li><i class="ph ph-check-circle"></i> Ferramentas de Design (Canva, etc.)</li>
+                        <li><i class="ph ph-check-circle"></i> Gestão de Redes Sociais</li>
+                        <li><i class="ph ph-check-circle"></i> Fotografia e Edição de Imagens</li>
+                        <li><i class="ph ph-check-circle"></i> Noções de SEO</li>
+                        <li><i class="ph ph-check-circle"></i> HTML & CSS (Básico)</li>
+                        <li><i class="ph ph-check-circle"></i> Python (Estudando)</li>
+                        <li><i class="ph ph-check-circle"></i> Machine Learning (Estudando)</li>
+                    </ul>
+                </div>
+                <div class="habilidade-grupo">
+                    <h3>Interpessoais (Soft Skills)</h3>
+                    <ul>
+                        <li><i class="ph ph-check-circle"></i> Criatividade e Inovação</li>
+                        <li><i class="ph ph-check-circle"></i> Resolução de Problemas</li>
+                        <li><i class="ph ph-check-circle"></i> Capacidade de Análise</li>
+                        <li><i class="ph ph-check-circle"></i> Aprendizado Rápido</li>
+                        <li><i class="ph ph-check-circle"></i> Adaptação</li>
+                        <li><i class="ph ph-check-circle"></i> Comunicação</li>
+                        <li><i class="ph ph-check-circle"></i> Trabalho em Equipe</li>
+                    </ul>
+                </div>
+                <div class="habilidade-grupo">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li><i class="ph ph-globe"></i> Inglês (Iniciante)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="contato">
+            <h2>Vamos Conversar?</h2>
+            <p>Estou aberta a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato pelo WhatsApp.</p>
+            <a href="https://api.whatsapp.com/send/?phone=5511966323257&text&type=phone_number&app_absent=0" target="_blank" class="btn-contato whatsapp">WhatsApp</a>
+            <p class="contato-info">Localização: Mauá - São Paulo</p>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; <span id="current-year">2025</span> Maria Thereza. Feito com ❤️ e código.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
